@@ -33,5 +33,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+#undef RGBLED_NUM
+#define RGBLED_NUM 24
 
-#define BACKLIGHT_CAPS_LOCK
+
