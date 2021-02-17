@@ -13,8 +13,8 @@ enum custom_keycodes {
 };
 
 // define some useful send strings
-#define SS_PREV_DESKTOP SS_LCTRL(SS_LGUI(SS_TAP(X_LEFT)))
-#define SS_NEXT_DESKTOP SS_LCTRL(SS_LGUI(SS_TAP(X_RIGHT)))
+#define SS_PREV_DESKTOP SS_LCTRL(SS_RGUI(SS_TAP(X_LEFT)))
+#define SS_NEXT_DESKTOP SS_LCTRL(SS_RGUI(SS_TAP(X_RIGHT)))
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    [0] = LAYOUT( \
